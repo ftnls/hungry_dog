@@ -1,0 +1,65 @@
+
+
+.search {
+	position: absolute;
+	left: 840px;
+	top: 290px;
+	transform: translate(-50%, -50%);
+	width: 545px;
+	height: 50px;
+}
+
+.search-input {
+	width: 545px;
+	height: 50px;
+	font-size: 26px;
+}
+
+.plus-product {
+	width: 50px;
+	height: 52px;
+	font-size: 40px;
+	margin-left: 575px;
+}
+
+.plus-product:active {
+	background-color: #e3e3e3;
+	font-size: 38px;
+}
+
+.plus-product p {
+	margin-left: 15px;
+	margin-top: 0px;
+}
+
+.main-titles {
+	width: 100%;
+	transform: translate(-50%, -50%);
+	top: 170px;
+	left: 50%;
+	position: absolute;
+	font-size: 72px;
+}
+
+.main-titles h1 {
+	text-align: center;
+}
+
+.products {
+	border: solid black;
+	width: 1050px;
+	height: 100px;
+	transform: translate(-50%);
+	left: 50%;
+	top: 350px;
+	position: absolute;
+	color: white;
+}
+
+.products .product {
+	position: absolute;
+	background-color: black;
+	border-radius: 50%, 50%;
+	left: 10px;
+	top: 5px;
+}

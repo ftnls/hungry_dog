@@ -1,0 +1,193 @@
+* {
+	font-family: "Myriad Pro", monospace;
+}
+
+body {
+	background: #eeece0;
+	margin: 0;
+}
+
+.brown {
+	color: #451813;
+}
+
+.bg-brown {
+	background-color: #451813;
+}
+
+.brown-light {
+	color: #a95534;
+}
+
+.orange {
+	color: #d65f5a;
+}
+
+.underline {
+	color: black;
+	text-decoration: none;
+}
+.underline:hover {
+	text-decoration: underline;
+}
+
+.selected {
+	color: #d65f5a;
+}
+
+.logo {
+	position: fixed;
+	width: 120px;
+	margin-left: 90%;
+	margin-top: 40%;
+}
+
+
+
+.headblock table {
+	position: fixed;
+	z-index: 4;
+}
+.headblock {
+	width: 100%;
+	font-size: 20px;
+	height: 60px;
+	/*background-color: white;*/
+}
+
+
+.headblock .languages {
+	text-align: left;
+	margin-left: 40px;
+}
+
+.headblock .account {
+	text-align: right;
+	margin-right: 40px;
+}
+
+
+/*.search {
+	width: 730px;
+	height: 70px;
+}
+*/
+.search-input {
+	width: 700px;
+	height: 70px;
+	border: solid white 0px;
+	color: white;
+	font-size: 30px;
+	padding-left: 15px;
+	padding-right: 15px;
+	position: absolute;
+}
+.search-input::placeholder {
+	color: #a87c77;
+}
+
+.plus-product {
+	position: relative;
+	width: 70px;
+	height: 72px;
+	background-color: white;
+	position: absolute;
+	font-size: 50px;
+	margin-left: 660px;
+	margin-bottom: -70px;
+	transition-duration: 100ms;
+	/*cursor: cell;*/
+	cursor: pointer;
+}
+
+.plus-product:active {
+	background-color: #e3e3e3;
+	font-size: 40px;
+	/*box-shadow: inset 0px 0px 1px 0px #451813;*/
+}
+
+.plus-product p {
+	position: relative;
+	margin-top: 5px;
+	margin-left: 20px;
+}
+
+
+.reciepes {
+	position: absolute;
+	transform: translate(-50%);
+	left: 15%;
+	top: 480px;
+	font-size: 22px;
+}
+
+.reciepes table div {
+	border-radius: 10px;
+	margin-bottom: 25px;
+}
+
+.reciepes table {
+	width: 1367px;
+}
+
+.reciepes .reciepe {
+	width: 430px;
+	height: 520px;
+	overflow: hidden;
+	background-color: black;
+	position: relative;
+	color: white;
+	
+}
+
+.reciepes .reciepe img {
+	width: 430px;
+	height: 520px;
+	opacity: 0.3;
+}
+
+/*.reciepes .reciepe h3 {
+	position: relative;
+	transform: translate(-50%, -50%);
+	left: 70%;
+	color: white;
+}*/
+
+.reciepes .reciepe .title {
+	position: absolute;
+	top: 20px;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+
+.reciepes .reciepe .ingradients {
+	position: absolute;
+  	top: 60px;
+  	left: 5px;
+  	right: 5px;
+}
+
+.reciepes .reciepe .price {
+	border-radius: 0px;
+	position: absolute;
+	top: 92%;
+	width: 430px;
+	height: 56px;
+	background-color: #960014;
+	text-align: center;
+}
+
+.reciepes .reciepe .price p {
+	position: absolute;
+	top: 0%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+
+// width block reciepe 430
+// height block reciepe 520
+
+// width between vertical 50px
+// width between horizontal 40px
+
+
