@@ -1,129 +1,81 @@
 .title {
+	position: absolute;
+	margin-top: 20px;
 	font-size: 90px;
+	margin-left: 10%;
 }
 
-.ingradientfoto{
-    width: 100%; 
-    height: 500px;
-   
-}
-.reciepes {
+.dish {
+	width: 80%;
+	height: 500px;
 	position: absolute;
 	transform: translate(-50%);
+	top: 200px;
 	left: 50%;
-	top: 480px;
+	overflow: hidden;
 }
 
-.reciepes table div {
-	border: solid black 0px;
-	border-radius: 10px;
-	margin-bottom: 25px;
+.dish table {
+	width: 100%;
 }
 
-.ingradientfoto table {
-	width: 1367px;
-    margin-left: 12%;
-	outline-color: red;
-    outline-style: dashed;
-    outline-width: 2px;
+.dish * {
+	/*border: solid black;*/
+	border-spacing: 0;
 }
 
-.ingradientfoto .foto {
-	width: 1300px;
-	height: 450px;
-	background-color: white;
-    margin-left: 21%;
+.dish .dish_info {
+	color: white;
+	width: 50%;
+	text-align: center;
+	background-color: rgba(0,0,0,0.2);
+}
+.dish .dish_info h2 {
+	position: absolute;
+	transform: translate(-50%, -50%);
+	left: 25%;
+	top: 10%;
+	font-size: 80px;
 }
 
-.dish_image {
-	width: 650px;
-	height: 450px;
-    margin-top: -3px;
-    background: url('img/ApplePie.jpg');
-}
-
-.ingradientfoto .foto1 {
-	width: 650px;
-	height: 450px;
-    margin-top: -3px;
-    background: #bebdb2;
-    margin-left: 65px;
-
-}
-
-.nameingradient{
-    font-size: 70px;
+.dish .dish_info .user {
+	width: 50%;
+	height: 100px;
 	position: absolute;
 	transform: translate(-50%);
-	left: 33%;
-	top: 250px;
+	top: 35%;
+	left: 25%;
+}
+
+.dish .dish_info .user p {
+	font-size: 24px;
 	position: absolute;
-	color: white;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	top: 50%;
 }
 
-.ingradients{
-	height: 400px;
+.dish .dish_info .user img {
+	position: absolute;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	top: 30%;
+}
+
+.dish .dish_info .rate {
+	position: absolute;
+	transform: translate(-50%, -50%);
+	left: 25%;
+	top: 60%;
+}
+
+.dish .dish_image {
+	width: 50%;
+}
+
+.dish .dish_image img {
 	width: 100%;
-	outline-color: red;
-    outline-style: dashed;
-    outline-width: 2px;
-	margin-top: -15%;
-	margin-left: 200px ;
-
 }
 
-.info{
-	columns: 2;
-	line-height: 1.7;
-	column-gap: 50px;
-	width: 60%;
-	outline-color: red;
-    outline-style: dashed;
-    outline-width: 2px;
-	height: 200px;
 
-}
 
-.title h2{
-	font-size: 70px;
-	outline-color: red;
-    outline-style: dashed;
-    outline-width: 2px;
-	color: #451813;
-}
-
-.title .ikon1{
-	margin-left: 55% ;
-	margin-top: -115px;
-	outline-color: red;
-    outline-style: dashed;
-    outline-width: 2px;
-}
-
-.title .ikon2{
-	margin-left: 58% ;
-	margin-top: -140px;
-	outline-color: red;
-    outline-style: dashed;
-    outline-width: 2px;
-}
-
-.title .click{
-	background: #451813;
-    color: white;
-    border-radius: 4px;
-    display: block;
-    width: 240px;
-    padding: 20px 0;
-    text-decoration: none;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 30px;
-	margin-top: -140px;
-	outline-color: red;
-    outline-style: dashed;
-    outline-width: 2px;
-	margin-left: 63%;
-	margin-top: -179px;
-}
