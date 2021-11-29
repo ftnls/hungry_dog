@@ -81,6 +81,7 @@ body {
 	padding-left: 15px;
 	padding-right: 15px;
 	position: absolute;
+	transform: translate(-50%, -50%);
 }
 .search-input::placeholder {
 	color: #a87c77;
