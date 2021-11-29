@@ -102,7 +102,7 @@ body {
 
 .plus-product:active {
 	background-color: #e3e3e3;
-	font-size: 40px;
+	font-size: 48px;
 	/*box-shadow: inset 0px 0px 1px 0px #451813;*/
 }
 
@@ -113,7 +113,7 @@ body {
 }
 
 
-.reciepes {
+.recipes {
 	position: absolute;
 	transform: translate(-50%);
 	left: 15%;
@@ -121,16 +121,16 @@ body {
 	font-size: 22px;
 }
 
-.reciepes table div {
+.recipes table div {
 	border-radius: 10px;
 	margin-bottom: 25px;
 }
 
-.reciepes table {
+.recipes table {
 	width: 1367px;
 }
 
-.reciepes .reciepe {
+.recipes .recipe {
 	width: 430px;
 	height: 520px;
 	overflow: hidden;
@@ -140,34 +140,34 @@ body {
 	
 }
 
-.reciepes .reciepe img {
+.recipes .recipe img {
 	width: 430px;
 	height: 520px;
 	opacity: 0.3;
 }
 
-/*.reciepes .reciepe h3 {
+/*.recipes .recipe h3 {
 	position: relative;
 	transform: translate(-50%, -50%);
 	left: 70%;
 	color: white;
 }*/
 
-.reciepes .reciepe .title {
+.recipes .recipe .title {
 	position: absolute;
 	top: 20px;
   	left: 50%;
   	transform: translate(-50%, -50%);
 }
 
-.reciepes .reciepe .ingradients {
+.recipes .recipe .ingradients {
 	position: absolute;
   	top: 60px;
   	left: 5px;
   	right: 5px;
 }
 
-.reciepes .reciepe .price {
+.recipes .recipe .price {
 	border-radius: 0px;
 	position: absolute;
 	top: 92%;
@@ -177,15 +177,15 @@ body {
 	text-align: center;
 }
 
-.reciepes .reciepe .price p {
+.recipes .recipe .price p {
 	position: absolute;
 	top: 0%;
   	left: 50%;
   	transform: translate(-50%, -50%);
 }
 
-// width block reciepe 430
-// height block reciepe 520
+// width block recipe 430
+// height block recipe 520
 
 // width between vertical 50px
 // width between horizontal 40px
