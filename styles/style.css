@@ -3,10 +3,11 @@
 }
 
 .containerblock{
-	margin-top: 10%;
+	margin-top: 6%;
 	position: absolute;
 	width: 50%;
 	height: 50%;
+	margin-left: 4%;
 
 }
 
@@ -36,26 +37,34 @@
     text-transform: uppercase;
     font-weight: bold;
     font-size: 30px;
-
-
+	margin-top: 36%;
+	position: absolute;
+	margin-left: 45%;
 }
 
-.logotype{
+.button a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+.button a{
+	color: white;
+	text-decoration: none;
+	transition-duration: 100ms;
+}
+
+.button a:active{
+	color: white;
+	text-decoration: none;
+	font-size: 25px;
+}
+
+.logo{
     width: 140px;
     margin-left: 1900px;
     margin-top: 30px;
-	border: solid black;
     
 }
-
-
-.container{
-    margin-left: 4%;
-    width:100%;
-    height: 100%;
-    border: solid black;
-}
-
 
 /* .find_form{
 	position: absolute;
@@ -66,6 +75,7 @@
 } */
 .search{
 	position: absolute;
-	top: 65%;
+	top: 60%;
     left: 4%;
 }
+
