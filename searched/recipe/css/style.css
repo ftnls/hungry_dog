@@ -5,6 +5,10 @@
 	margin-left: 10%;
 }
 
+.block_title {
+	font-size: 55px;
+}
+
 .dish {
 	width: 80%;
 	height: 500px;
@@ -103,7 +107,7 @@
 	height: 55px;
 	background-color: #960014;
 	color: white;
-	left: 76%;
+	left: 75.85%;
 	top: 76%;
 }
 
@@ -125,7 +129,6 @@
 }
 
 .ingradients h2 {
-	font-size: 55px;
 	margin-bottom: 15px;
 }
 
@@ -136,8 +139,9 @@
 
 .video_btn {
 	position: fixed;
-	right: 10%;
+	right: 10.1%;
 	top: 90%;
+	z-index: 4;
 }
 
 .video_btn img {
@@ -153,6 +157,43 @@
 	width: 50px;
 }
 
+
+.steps_block {
+	position: absolute;
+	transform: translate(-50%);
+	left: 50%;
+	top: 1000px;
+	width: 80%;
+}
+
+.steps_block h2 {
+	position: absolute;
+}
+
+.steps {
+	width: 100%;
+	height: 100%;
+}
+
+.steps * {
+	border-spacing: 0;
+	border: solid black;
+}
+
+.steps .step_number {
+	font-size: 50px;
+	position: absolute;
+	margin-top: 0px;
+	margin-left: -170px;
+}
+
+.steps .step_text {
+	padding: 100px;
+}
+
+.steps .step_img img {
+	width: 530px;
+}
 
 
 
