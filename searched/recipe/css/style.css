@@ -166,8 +166,8 @@
 	width: 80%;
 }
 
-.steps_block h2 {
-	position: absolute;
+.steps_block .block_title {
+	margin-top: 0;
 }
 
 .steps {
@@ -182,9 +182,6 @@
 
 .steps .step_number {
 	font-size: 50px;
-	position: absolute;
-	margin-top: 0px;
-	margin-left: -170px;
 }
 
 .steps .step_text {
