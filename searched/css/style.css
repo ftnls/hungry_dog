@@ -46,7 +46,7 @@
 }
 
 .products {
-	border: solid black;
+	/*border: solid black;*/
 	width: 1050px;
 	height: 100px;
 	transform: translate(-50%);
@@ -58,8 +58,44 @@
 
 .products .product {
 	position: absolute;
+	width: auto;
+	padding-right: 10px;
+	padding-left: 10px;
+	height: 30px;
+	color: white;
 	background-color: black;
-	border-radius: 50%, 50%;
-	left: 10px;
-	top: 5px;
+	transition-duration: 500ms;
+	border-radius: 24px;
+}
+
+.products .product p {
+	position: relative;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	bottom: 20%;
+}
+
+.products .product:hover {
+	cursor: pointer;
+	animation-name: live-border;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes live-border {
+	0% {
+		border-radius: 24px;
+		color: white;
+		background-color: black;
+	}
+	50% {
+		border-radius: 10px;
+		color: black;
+		background-color: white;
+	}
+	100% {
+		border-radius: 24px;
+		color: white;
+		background-color: black;
+	}
 }
