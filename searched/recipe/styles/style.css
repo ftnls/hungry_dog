@@ -17,6 +17,7 @@
 
 .dish table {
 	width: 100%;
+	height: 500px;
 }
 
 .dish * {
@@ -67,15 +68,91 @@
 	transform: translate(-50%, -50%);
 	left: 25%;
 	top: 60%;
+	cursor: pointer;
 }
 
 .dish .dish_image {
+	position: absolute;
+	overflow: hidden;
 	width: 50%;
+	height: 550px;
+	background-color: white;
 }
 
 .dish .dish_image img {
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
 	width: 100%;
 }
+
+.dish .dish_function_buttons {
+	margin-top: 32%;
+}
+
+.dish .dish_function_buttons img {
+	width: 40px;
+	margin: 5px;
+}
+
+.price {
+	text-align: center;
+	position: absolute;
+	width: 270px;
+	height: 55px;
+	background-color: #960014;
+	color: white;
+	left: 76%;
+	top: 76%;
+}
+
+.price p {
+	height: 100%;
+	position: relative;
+	display: block;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	top: 5%;
+	font-size: 32px;
+}
+
+
+.ingradients {
+	position: absolute;
+	margin-left: 10%;
+	margin-top: 33%;
+}
+
+.ingradients h2 {
+	font-size: 55px;
+	margin-bottom: 15px;
+}
+
+.ingradients .info {
+	font-size: 18px;
+}
+
+
+.video_btn {
+	position: fixed;
+	right: 10%;
+	top: 90%;
+}
+
+.video_btn img {
+	width: 50px;
+	transition-duration: 100ms;
+}
+
+.video_btn img:hover {
+	width: 53px;
+}
+
+.video_btn img:active {
+	width: 50px;
+}
+
 
 
 
