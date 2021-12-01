@@ -28,7 +28,7 @@
 	</div>
 
 	<div class="search">
-		<input type="text" class="search-input bg-brown" placeholder="Search...">
+		<input onfocus="this.value=''" type="text" class="search-input bg-brown" placeholder="Search...">
 		<div class="plus-product">
 			<p class="brown">+</p>
 		</div>
@@ -38,7 +38,7 @@
 
 	<div class="products">
 		<div class="product" id="1">
-			<p>Milk</p>
+			<p id="1" onclick="whatId(this.id)">Milk</p>
 		</div>
 	</div>
 
