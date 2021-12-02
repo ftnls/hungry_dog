@@ -138,14 +138,17 @@ body {
 	overflow: hidden;
 	background-color: black;
 	position: relative;
-	color: white;
-	
+	color: white;	
 }
 
 .recipes .recipe img {
 	width: 430px;
 	height: 520px;
 	opacity: 0.3;
+}
+
+.recipes .recipe:hover {
+
 }
 
 /*.recipes .recipe h3 {
