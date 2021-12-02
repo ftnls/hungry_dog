@@ -11,3 +11,13 @@ function findeHandler() {
   };
   productlist.appendChild(li);
 }
+
+// Get the input field
+var input = document.getElementById("search-input");
+
+input.addEventListener("keyup", function(event) {
+  if (event.keyCode === 13) {
+    findeHandler();
+    document.getElementById("search-input").value = "";
+  }
+});

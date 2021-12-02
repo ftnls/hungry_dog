@@ -118,8 +118,8 @@ body {
 .recipes {
 	position: absolute;
 	transform: translate(-50%);
-	left: 15%;
-	top: 480px;
+	left: 50%;
+	top: 530px;
 	font-size: 22px;
 }
 

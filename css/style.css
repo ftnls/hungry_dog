@@ -3,19 +3,17 @@
 }
 
 .containerblock{
-	margin-top: 6%;
+	margin-top: 4%;
 	position: absolute;
 	width: 50%;
 	height: 50%;
 	margin-left: 4%;
-
 }
 
 .title {
     font-size:160px;
     color: #451813;
 	position: absolute;
-
 }
 .tip{
     font-size: 60px;
@@ -33,7 +31,7 @@
     height: 70px;
     margin: 0 auto;
     font-size: 30px;
-	top: 77%;
+	top: 65%;
 	left: 50%;
 }
 
@@ -67,7 +65,7 @@
 } */
 .search{
 	position: absolute;
-	top: 60%;
+	top: 50%;
     left: 4%;
 }
 
