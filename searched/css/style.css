@@ -2,7 +2,7 @@
 
 .search {
 	position: absolute;
-	left: 840px;
+	left: 50%;
 	top: 290px;
 	transform: translate(-50%, -50%);
 	width: 545px;
@@ -85,7 +85,8 @@
 
 .products .product:hover {
 	cursor: pointer;
-	box-shadow: 0px 0px 20px 7px #451813;
+	box-shadow: 0px 0px 10px black;
+	user-select: none;
 }
 
 @keyframes live-border {
