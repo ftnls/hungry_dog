@@ -48,6 +48,14 @@
 	text-align: center;
 }
 
+.comment {
+	color: gray;
+	position: absolute;
+	top: 33%;
+	left: 24%;
+	opacity: 0;
+}
+
 .products {
 	/*border: solid black;*/
 	width: 1050px;
@@ -63,15 +71,13 @@
 }
 
 .products .product {
-	padding-right: 10px;
-	padding-left: 10px;
 	max-height: 20px;
 	min-width: 20px;
 	color: white;
 	background-color: black;
 	transition-duration: 500ms;
 	border-radius: 10px;
-	padding: 10px;
+	padding: 5px;
 	text-align: center;
 	margin-right: 10px;
 }

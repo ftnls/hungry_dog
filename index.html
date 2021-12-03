@@ -23,17 +23,21 @@
         <h1 class="title">HUNGRY DOG</h1>
     </div>
 	<div class="search">
-		<input type="text" class="search-input bg-brown" placeholder="Search...">
-		<div class="plus-product">
+		<input type="text" class="search-input bg-brown" id="search-input" placeholder="Search...">
+		<div class="plus-product" id="plus-product">
 		  <p class="brown">+</p>
 		</div>
 	</div>
 
+    <p class="comment">// Click on the product for delete it</p>
     <ul class="products" id="products-list"></ul>
-    
+
 	<a class="button" href="searched/searched.html"><p>FIND</p></a>
     <img src="images/logo.png" alt="error" class="logo">
 
+
+    <script type="text/javascript" src="js/jquery-3.6.0.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
     <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </body>
 </html>
