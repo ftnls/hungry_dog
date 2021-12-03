@@ -69,3 +69,44 @@
     left: 4%;
 }
 
+
+.products {
+	border: solid black;
+	width: 1050px;
+	height: 150px;
+	transform: translate(-50%);
+	left: 50%;
+	top: 0px;
+	position: absolute;
+	color: white;
+	display: flex;
+	flex-wrap: wrap;
+	list-style:none;
+}
+
+.products .product {
+	padding-right: 10px;
+	padding-left: 10px;
+	max-height: 20px;
+	min-width: 20px;
+	color: white;
+	background-color: black;
+	transition-duration: 500ms;
+	border-radius: 10px;
+	padding: 10px;
+	text-align: center;
+	margin-right: 10px;
+}
+
+.products .product p {
+	position: relative;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	bottom: 20%;
+}
+
+.products .product:hover {
+	cursor: pointer;
+	box-shadow: 0px 0px 10px black;
+	user-select: none;
+}
