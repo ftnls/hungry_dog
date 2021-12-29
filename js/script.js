@@ -8,6 +8,7 @@ function findeHandler() {
     count_products++;
     if (count_products > 0) {
       $(".comment").css('opacity', '1');
+      $(".button").css('opacity', '1');
     }
     li.innerText = value;
     li.className = "product";
@@ -16,6 +17,7 @@ function findeHandler() {
       count_products--;
       if (count_products < 1) {
         $(".comment").css('opacity', '0');
+        $(".button").css('opacity', '0');
       }
       this.parentElement.removeChild(this);
     };
@@ -33,3 +35,5 @@ input.addEventListener("keyup", function(event) {
     findeHandler();
   }
 });
+
+findeHandler();

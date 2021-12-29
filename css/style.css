@@ -1,36 +1,44 @@
 .containerblock{
-	margin-top: 4%;
 	position: absolute;
-	width: 50%;
+	width: 100%;
 	height: 50%;
-	margin-left: 4%;
+	left: 50px;
 }
 
 .title {
+	position: relative;
     font-size:160px;
     color: #451813;
 	position: absolute;
 }
 .tip{
+	position: relative;
     font-size: 60px;
     color: #a95534;
 	position: absolute;
 
 }
 
+.products-table {
+	/*border: solid black;*/
+	position: absolute;
+	top: 45%;
+	left: 55%;
+}
+
 .button{
 	display: block;
-    position: absolute;
-    transform: translate(-50%, -50%);
+    position: relative;
+    transform: translate(0%, -50%);
     background: #451813;
     width: 240px;
     height: 70px;
+    top: 20px;
     font-size: 30px;
-	top: 66%;
-	left: 49%;
 	transition-duration: 300ms;
 	text-decoration: none;
 	color: white;
+	opacity: 0;
 }
 
 .button:hover{
@@ -62,11 +70,22 @@
 
 .comment {
 	color: gray;
-	position: absolute;
-	top: 400px;
-	left: 868px;
+	position: relative;
 	opacity: 0;
 }
+
+.products {
+	/*border: solid black;*/
+	width: 600px;
+	height: 150px;
+	position: relative;
+	color: white;
+	display: flex;
+	flex-wrap: wrap;
+	list-style:none;
+	transition-duration: 200ms;
+}
+
 
 .search{
 	position: absolute;
@@ -75,25 +94,11 @@
 }
 
 
-.products {
-	/*border: solid black;*/
-	width: 1000px;
-	height: 150px;
-	transform: translate(-50%);
-	left: 70%;
-	top: 425px;
-	position: absolute;
-	color: white;
-	display: flex;
-	flex-wrap: wrap;
-	list-style:none;
-	transition-duration: 200ms;
-}
 
 .products .product {
 	transition-duration: 200ms;
 	max-height: 20px;
-	min-width: 20px;
+	min-width: 10px;
 	color: white;
 	background-color: black;
 	transition-duration: 500ms;
