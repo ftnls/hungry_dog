@@ -3,10 +3,6 @@ body {
 	margin: 0;
 }
 
-* {
-	font-family: "Myriad Pro", monospace;
-}
-
 .loginForm {
 	position: absolute;
 	top: 50%;
